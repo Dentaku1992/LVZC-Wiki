@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'LVZC Wiki',
   description: 'Your wiki description',
-  base: '/LVZC-Wiki/', // Important: matches your repo name
+  //base: '/LVZC-Wiki/', // Important: matches your repo name
   
   themeConfig: {
     nav: [
