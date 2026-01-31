@@ -3,14 +3,14 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'LVZC Wiki',
-  description: 'Kennisbank Liga van Vlaamse Zweefvliegclubs',
+  description: 'Kennisbank voor Liga van Vlaamse Zweefvliegclubs',
   base: '/LVZC-Wiki/',
   lang: 'nl-NL',
   
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'ZweefApp', link: '/zweefapp/' },
+      { text: 'Administrators', link: '/zweefapp/' },
       { text: 'Instructeurs', link: '/instructeurs/' },
       { text: 'Piloten', link: '/piloten/' }
     ],
@@ -18,9 +18,37 @@ export default defineConfig({
     sidebar: {
       '/zweefapp/': [
         {
-          text: 'Administrators',
+          text: 'Communicatie & Instellingen',
+          collapsed: false,
           items: [
-            { text: 'Overzicht', link: '/zweefapp/' }
+            { text: 'Overzicht', link: '/zweefapp/' },
+            { text: 'Communicatie en Contacten', link: '/zweefapp/communicatie' },
+            { text: 'Club Settings', link: '/zweefapp/club-settings' }
+          ]
+        },
+        {
+          text: 'Ledenadministratie',
+          collapsed: false,
+          items: [
+            { text: 'Lidmaatschap Beheer', link: '/zweefapp/lidmaatschap' },
+            { text: 'Privacy en Gegevens', link: '/zweefapp/privacy' },
+            { text: 'Thuisclub Wijzigen', link: '/zweefapp/thuisclub' }
+          ]
+        },
+        {
+          text: 'DTO & Clusters',
+          collapsed: false,
+          items: [
+            { text: 'DTO Cluster', link: '/zweefapp/dto-cluster' },
+            { text: 'LVZC Cluster', link: '/zweefapp/lvzc-cluster' }
+          ]
+        },
+        {
+          text: 'Technisch & Geavanceerd',
+          collapsed: false,
+          items: [
+            { text: 'API Toegang', link: '/zweefapp/api' },
+            { text: 'Liga Toegang', link: '/zweefapp/liga-toegang' }
           ]
         }
       ],
@@ -49,7 +77,7 @@ export default defineConfig({
     ],
     
     footer: {
-      message: 'Liga van Vlaamse Zweefvliegclubs vzw',
+      message: 'Liga van Vlaamse Zweefvliegclubs',
       copyright: 'Copyright © 2026 LVZC'
     },
     
@@ -86,6 +114,11 @@ export default defineConfig({
     
     lastUpdated: {
       text: 'Laatst bijgewerkt'
+    },
+
+    editLink: {
+      pattern: 'https://github.com/Dentaku1992/LVZC-Wiki/edit/main/docs/:path',
+      text: 'Bewerk deze pagina op GitHub'
     }
   }
 })
