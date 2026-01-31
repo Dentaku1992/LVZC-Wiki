@@ -1,17 +1,23 @@
-# Markdown syntax guide
+---
+layout: home
 
-## Headers
+hero:
+  name: "LVZC Wiki"
+  text: "Welcome to the wiki"
+  tagline: "Your knowledge base"
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /guide/getting-started
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/Dentaku1992/LVZC-Wiki
 
-# This is a Heading h1
-## This is a Heading h2
-###### This is a Heading h6
-
-## Emphasis
-
-*This text will be italic*  
-_This will also be italic_
-
-**This text will be bold**  
-__This will also be bold__
-
-_You **can** combine them_
+features:
+  - title: Feature 1
+    details: Description of your first feature
+  - title: Feature 2
+    details: Description of your second feature
+  - title: Feature 3
+    details: Description of your third feature
+---
