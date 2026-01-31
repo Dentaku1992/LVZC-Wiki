@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'LVZC Wiki',
-  description: 'Kennisbank voor Limburgse Vereniging voor Zweefvliegen in Chartres',
+  description: 'Kennisbank Liga van Vlaamse Zweefvliegclubs',
   base: '/LVZC-Wiki/',
   lang: 'nl-NL',
   
@@ -18,7 +18,7 @@ export default defineConfig({
     sidebar: {
       '/zweefapp/': [
         {
-          text: 'ZweefApp',
+          text: 'Administrators',
           items: [
             { text: 'Overzicht', link: '/zweefapp/' }
           ]
@@ -49,7 +49,7 @@ export default defineConfig({
     ],
     
     footer: {
-      message: 'Limburgse Vereniging voor Zweefvliegen in Chartres',
+      message: 'Liga van Vlaamse Zweefvliegclubs vzw',
       copyright: 'Copyright © 2026 LVZC'
     },
     
