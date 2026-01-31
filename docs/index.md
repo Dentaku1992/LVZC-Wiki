@@ -3,21 +3,34 @@ layout: home
 
 hero:
   name: "LVZC Wiki"
-  text: "Welcome to the wiki"
-  tagline: "Your knowledge base"
+  text: "Kennisbank ZweefApp en Vliegen binnen LVZC"
+  tagline: "Alle informatie voor piloten, instructeurs en beheerders"
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/getting-started
+      text: Voor Piloten
+      link: /piloten/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/Dentaku1992/LVZC-Wiki
+      text: Voor Instructeurs
+      link: /instructeurs/
+    - theme: alt
+      text: Voor Administrators
+      link: /zweefapp/
 
 features:
-  - title: Feature 1
-    details: Description of your first feature
-  - title: Feature 2
-    details: Description of your second feature
-  - title: Feature 3
-    details: Description of your third feature
+  - icon: 📱
+    title: Voor Administraotrs
+    details: Handleiding voor het gebruik en beheer van ZweefApp
+    link: /zweefapp/
+  - icon: 👨‍🏫
+    title: Voor Instructeurs
+    details: Informatie en richtlijnen voor instructeurs
+    link: /instructeurs/
+  - icon: 🪂
+    title: Voor Piloten
+    details: Alles wat je moet weten als piloot
+    link: /piloten/
 ---
+
+## Welkom bij de LVZC Wiki
+
+Deze wiki bevat alle informatie die je nodig hebt als piloot, instructeur of beheerder van ZweefApp.
