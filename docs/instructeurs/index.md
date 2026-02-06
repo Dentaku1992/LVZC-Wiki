@@ -1,6 +1,6 @@
 # Instructeurs
 
-Welkom bij de handleiding voor instructeurs. Koen is de baas (aHoT)
+Welkom bij de handleiding voor instructeurs. Koen is de baas (HoT)
 
 ## Overzicht
 
